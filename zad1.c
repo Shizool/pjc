@@ -49,3 +49,16 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
+/*
+Opracować program wczytujący ze standardowego wejścia słowa składające się tylko z liter
+i wyświetlający w osobnych wierszach na ekranie te słowa, które zwierają liczbę i rodzaj znaków
+podane w wierszu poleceń. Można założyć, że wszystkie wprowadzane dane będą poprawne.
+Przykładowo dla uruchomienia programu $ prog a 3 i danych na standardowym wejściu:
+aaa bbb ccacasa dd eeeeaaa sss ddd 4aa444 d1ddaaa bbaccadda
+program powinien wyświetlić:
+aaa
+ccacasa
+eeeeaaa
+bbaccadda
+*/
