@@ -34,3 +34,10 @@ int main(int argc, char *argv[])
     fclose(plik_wy);
     return 0;
 }
+
+/*
+Opracować program wczytujący z pliku tekstowego wiersze i zapisujący do drugiego pliku te wiersze,
+które zawierają tylko cyfry a ich długość nie jest większa niż wartość podana jako argument
+uruchomienia programu. Można założyć, że wszystkie dane będą poprawne, a podawana długość nie
+będzie większa niż 128.
+*/
