@@ -33,3 +33,12 @@ int main(int argc, char *argv[])
     fclose(plik);
     return 0;
 }
+
+/*
+Opracować program wczytujący ze standardowego wejścia liczby oddzielone spacją (do napotkania
+znaku końca wiersza) i zapisujący do zadanego pliku tekstowe ciągi znaków, będących
+zwielokrotnieniem ciągu przekazanego w wierszu pleceń, przy czym liczba wierszy pliku musi
+odpowiadać ilości liczb wprowadzonych przez standardowe wejście. Można założyć, że wszystkie dane
+będą poprawne. Przykładowo dla uruchomienia programu $ prog aabbcc i snaków na wejściu:
+1 2 1 3 2 1 1
+*/
