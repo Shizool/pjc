@@ -26,3 +26,16 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
+/*
+Opracować program wczytujący ze standardowego wejścia ciągi znaków oddzielone spacją
+i wyświetlający te te ciągi, które zawierają zadany ciąg znaków (podawany w wierszu poleceń
+programu). Można założyć, że wszystkie wprowadzane dane będą poprawne.
+Przykładowo dla wiersza poleceń $ prog abb i znaków na standardowym wejściu:
+ababbssh shhhh aa abbbb ssss dwkkw aaa oeiufffll
+abbbb aaa
+ababssh sbbbb ssss dwkkw aaa oeiufffll
+aass abb ddd
+program powinien wyświetlić:
+ababbssh abbbb abbbb abb
+*/
