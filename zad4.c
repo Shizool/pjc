@@ -51,5 +51,6 @@ e
 faaf
 program powinien wyświetlić:
 aa
-cccddd
+cccdddeeef
+e
 */
