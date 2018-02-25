@@ -31,3 +31,17 @@ int main()
     fclose(plik);
     return 0;
 }
+
+/*
+Opracować program wczytujący z pliku wiersze i wyświetlający te, które zawierają zadaną liczbę grup
+liter danego typu. Można założyć, że wszystkie wprowadzane dane będą poprawne. Przykładowo dla
+zadanej grupy liter abc i liczby wynoszącej 3 oraz znaków w pliku:
+abcababcabca
+shshsk
+wwwl llsd djj
+abcb ca dabcbaa jss abc
+klja hhkla hahh ;a; habchhs www hajhhj
+program powinien wyświetlić:
+abcababcabca
+abcb ca dabcbaa jss abc
+*/
