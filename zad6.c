@@ -46,3 +46,11 @@ int main(int argc, char *argv[])
     fclose(plik);
     return 0;
 }
+
+/*
+Opracować program wczytujący ze standardowego wejścia znaki i zapisujący do pliku wiersze, jeśli ich
+długość będzie z zakresu długości podanej w trakcie uruchomienia programu. Można założyć, że
+wprowadzane dane będą poprawne. Przykładowo uruchomienie programu: $ prog 10-20 plik_wy.txt
+spowoduje zapisanie w plik_wy.txt wierszy o długości co najmniej 10 znaków i nie dłuższe niż 20
+znaków
+*/
