@@ -36,3 +36,20 @@ int main(int argc, char *argv[])
     fclose(plik);
     return 0;
 }
+
+/*
+Opracować program wczytujący z wiersza poleceń nazwę pliku i parami liczby oddzielone spacją
+i wyświetlający na ekranie wiersze z tego pliku o podanych numerach, jeśli liczba znaków w tym
+wierszu jest równa drugiej liczbie pary.. Można założyć, że wszystkie wprowadzane dane będą
+poprawne. Przykładowo dla wiersza poleceń: $ prog plik_we.txt 1 2 2 5 3 10 5 1 oraz zawartości pliku
+plik_we.txt postaci:
+aa
+bb
+cccdddeeef
+dd
+e
+faaf
+program powinien wyświetlić:
+aa
+cccddd
+*/
