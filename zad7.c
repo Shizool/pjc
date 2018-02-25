@@ -45,3 +45,10 @@ int main()
 
         return 0;
 }
+
+/*
+Opracować program wczytujący ze standardowego wejścia znaki aż do napotkania 3 znaków końca
+wiersza z rzędu - markera końca wprowadzanych znaków. Po wykryciu tego markera program powinien
+wyświetlać podsumowanie zawierające liczbę cyfr danego typu, jakie znalazły się w strumieniu. Można
+założyć, że wszystkie dane będą poprawne.
+*/
